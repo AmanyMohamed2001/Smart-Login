@@ -1,0 +1,26 @@
+.login{
+    background-color: rgb(181, 202, 248);
+}
+.container{
+    padding: 20rem;
+}
+.form-control{
+    border-radius: 5px;
+    width: 55%;
+}
+.message{
+    color: rgb(223, 73, 73);
+    font-size: 17px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+    font-size: 17px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.new{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}

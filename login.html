@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap-utilities.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+    <div class="login vh-100 text-center overflow-hidden d-flex align-items-center align-content-center">      
+        <div class="container px-5">
+           <div class="mb-4">
+               <h1 class="mb-3">Login</h1>
+               <h4 class="mb-3">Login to See Features</h4>
+           </div>
+           <form action="">
+             <div class="form-control m-auto px-5 py-5">             
+                <div class="mb-3 w-100">
+                    <input class="form-control w-100 p-3" id="singEmail" type="email" placeholder="E-mail address" style="border-radius: 5px; border: 0.5px solid darkgray;" />     
+                </div>
+                 <div class="mb-3 w-100">
+                    <input class="form-control w-100 p-3" id="singPassword" type="Password" placeholder="Password" style="border-radius: 5px; border: 0.5px solid darkgray;" />  
+                </div>     
+                <div class="message text-center" id="message"></div>          
+             <div class="butten">
+                 <div class="row">
+                     <div class="col-sm-12">
+                         <button onclick="add()" type="button" class="btn btn-outline-primary bg-primary text-white" >Login</button>
+                     </div>
+                 </div>
+                 <div class="row">
+                     <a href="./index.html" class="new">Register New Account</a>
+                 </div>
+             </div>
+            </div>
+           </form>
+       </div>
+   </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+</html>
